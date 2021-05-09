@@ -54,13 +54,13 @@ public class ChefMenu {
                         System.out.println("name,surname,age,gender,experience,hire date (dd/mm/yyyy), salary, overtime pay, overtime hours, stars of Michelin,specialization,cuisine");
                         System.out.println("To exit, input -1");
                         keyboard.nextLine();
-                        FileService.write("FileService\\chefInput.txt",keyboard.nextLine());
+                        FileService.write("FileService\\chefInput.txt",keyboard.nextLine()+"\n");
                         while(keyboard.hasNextLine()) {
                             String text = keyboard.nextLine();
                             if(text.equals("-1")) {
                                 break;
                             }
-                            FileService.writeWithAppend("FileService\\chefInput.txt",text);
+                            FileService.writeWithAppend("FileService\\chefInput.txt",text+"\n");
                         }
                         List<String> list = (FileService.read("FileService\\chefInput.txt"));
                         for(String element:list) {
