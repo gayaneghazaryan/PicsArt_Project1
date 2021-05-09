@@ -1,0 +1,3 @@
+Hayk,Ghazaryan,25,m,5,18/01/2019,5500,55,35,yes,Cosmopolitan
+Anna,Stepanyan,28,f,1,12/09/2018,3000,40,25,no,Virgin Mary
+Arman,Hakobyan,20,m,3,25/06/2020,4000,45,30,yes,Tequila Sunrise
