@@ -30,7 +30,7 @@ public abstract class RestaurantEmployee {
         @Override
         public String toString() {
             SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-            return dateFormat.format(calendar);
+            return dateFormat.format(calendar.getTime());
         }
 
         @Override
